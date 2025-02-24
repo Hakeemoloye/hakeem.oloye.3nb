@@ -1,4 +1,4 @@
 fn main() {
-    let foo = "Hakeem";
-    println!("{}", foo.chars().rev().collect::<String>());
+    let reverse = "palimpsest";
+    println!("{}", reverse.chars().rev().collect::<String>());
 }
