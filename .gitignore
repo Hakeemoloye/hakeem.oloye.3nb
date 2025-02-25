@@ -1,0 +1,72 @@
+# Diretórios de compilação
+/target/
+
+# Diretórios de dependências do Cargo
+/Cargo.lock
+/Cargo.toml
+
+# Arquivos de configuração do Cargo
+/cargo/
+
+# Arquivos de compilação temporários
+*.rs.bk
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+
+# Arquivos de cache do cargo
+**/target/
+**/*.d
+**/*.o
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup do editor
+*.swp
+*.swo
+
+# Arquivos de configuração do Editor Vim
+*.vimrc
+*.exrc
+
+# Arquivos de configuração do Emacs
+*~
+*.elc
+
+# Arquivos gerados pela compilação de testes
+/tests/test_output/
+*.test
+
+# Arquivos gerados pelo Rustfmt
+rustfmt.toml
+
+# Arquivos gerados pelo Clippy
+clippy_output/
+
+# Arquivos gerados por algumas ferramentas de análise
+/.cargo/
+/.cargo/
+
+# Arquivos de cache do cargo e compilação do projeto
+/cargo-cache/
+/.cargo-cache/
+
+# Arquivos de backup e swap do VS Code
+.vscode/*
+
+# Arquivos binários gerados (para binários do projeto)
+*.exe
+*.out
+*.app
+*.bin
+
+# Diretórios de ambiente virtual
+env/
+.venv/
