@@ -1,3 +1,4 @@
 fn main() {
-    println!("treinando rust");
+    let reverse = "hakeem";
+    println!("{}", reverse.chars().rev().collect::<String>());
 }
