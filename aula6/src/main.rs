@@ -1,3 +1,9 @@
+use std::collections::{HashMap, HashSet, VecDeque};
+
+struct Graph {
+    adjacency_list: HashMap<String, Vec<String>>,
+}
+
 impl Graph {
     fn new() -> Self {
         Graph {
@@ -72,7 +78,7 @@ impl Graph {
         graph.add_edge("C", "E");
 
         graph.dfs("A");
-        println!();
+        println!("---");
         graph.bfs("A");
     }
 }
