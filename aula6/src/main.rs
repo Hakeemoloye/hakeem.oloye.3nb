@@ -7,7 +7,7 @@ struct Graph {
 impl Graph {
     fn new() -> Self {
         Graph {
-            adjaceny_list: HashMap::new(),
+            adjacency_list: HashMap::new(),
         }
     }
 
